@@ -1,3 +1,7 @@
-# Heart Failure Mortality: An Unsupervised Prediction Study
+# Heart Failure Mortality: An Unsupervised Clustering Study
 
-Unsupervised predictions of patient mortality from congestive heart failure using a dataset of biomarkers and comorbidities.
+A study on unsupervised predictions of patient mortality due to congestive heart failure using a dataset of biomarkers and comorbidities.
+
+In this project on predicting patient mortality from congestive heart failure, both unsupervised and supervised learning models are explored and compared. Although supervised models are generally expected to outperform unsupervised ones in direct comparisons, the project aims to demonstrate the value of unsupervised learning in analyzing complex data relationships. During model comparison, special attention is given to evaluation metrics such as sensitivity and specificity, which are crucial in medical contexts where false positives and negatives can have significant consequences.
+
+Unsupervised learning, which clusters unlabeled data, is used in this project to identify patterns that can then be used to inform patient classifications. Unlike traditional classification methods that rely on labeled data for training, unsupervised learning's cluster interpretations may not directly correspond to target class structures. Despite this challenge, unsupervised learning has potential in uncovering patterns and similarities that supervised methods might overlook. This quality can potentially aid in identifying individuals near the gaps of higher risk of mortality post-congestive heart failure, which could potentially inform better medical responses.
