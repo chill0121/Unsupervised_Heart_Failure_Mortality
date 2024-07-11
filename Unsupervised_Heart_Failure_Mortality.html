@@ -14681,8 +14681,14 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>Dataset collected from patients exhibiting heart failure at Faisalabad Institute of Cardiology and Allied Hospital in Faisalabad (Punjab, Pakistan). All patients diagnosed with left ventricular systolic dysfunction and had previous heart failures.</p>
-<p>For more detailed information see article published in PLOS One here: <a href="https://doi.org/10.1371/journal.pone.0181001">https://doi.org/10.1371/journal.pone.0181001</a></p>
-<p>Dataset source: <a href="https://plos.figshare.com/articles/dataset/Survival_analysis_of_heart_failure_patients_A_case_study/5227684/1">https://plos.figshare.com/articles/dataset/Survival_analysis_of_heart_failure_patients_A_case_study/5227684/1</a></p>
+<p>For more detailed information see the journal article published in PLOS One here:</p>
+<ul>
+<li>Ahmad T, Munir A, Bhatti SH, Aftab M, Raza MA (2017) Survival analysis of heart failure patients: A case study. PLOS ONE 12(7): e0181001. <a href="https://doi.org/10.1371/journal.pone.0181001">https://doi.org/10.1371/journal.pone.0181001</a></li>
+</ul>
+<p>Dataset source published with article:</p>
+<ul>
+<li><a href="https://plos.figshare.com/articles/dataset/Survival_analysis_of_heart_failure_patients_A_case_study/5227684/1">https://plos.figshare.com/articles/dataset/Survival_analysis_of_heart_failure_patients_A_case_study/5227684/1</a></li>
+</ul>
 <p><strong>Data Info Summary:</strong></p>
 <ul>
 <li>Accessed and obtained on 7/1/2024.</li>
@@ -18968,6 +18974,7 @@ class="
 <ul>
 <li>Assumes clusters have a spherical shape and equal variance, this rarely fits real-world hyper-dimensional data. </li>
 <li>The random initialization of centroids in the K-algorithm means you might not find the same optima between iterations, and rarely the global optima.</li>
+<li>While not an issue with this small dataset time complexity tends to grow exponentially with these algorithms as it has to calculate distances between all points several times.</li>
 </ul>
 <p><strong>XGBoost:</strong></p>
 <ul>
